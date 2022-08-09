@@ -80,8 +80,40 @@
   box-sizing: border-box;
 }
 
+/* Elementos HTML da Page */
 li { list-style: none; }
 
 a { text-decoration: none; }
 
+a, img, span, data, time, input, button, span.icon { display: block; }
 
+button {
+  font: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+html { 
+  font-family: var(--ff-vietnam);
+  scroll-behavior: smooth;
+}
+
+body { 
+  padding-block-start: 72px;
+  background: var(--cultured);
+}
+
+:focus-visible {
+  outline: 2px solid var(--onyx);
+  outline-offset: 1px;
+}
+
+::-webkit-scrollbar { width: 10px; }
+
+::-webkit-scrollbar-track { background: hsl(0, 0%, 95%); }
+
+::-webkit-scrollbar-thumb { background: hsl(0, 0%, 80%); }
+
+::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
