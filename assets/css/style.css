@@ -119,6 +119,14 @@ body {
 ::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 
+/*--------------------> ESTILOS REUSADO <----------------*/
+
+.container { padding-inline: 15px; }
+
+
+
+
+
 /*--------------------> HEADER <----------------*/
 
 .navbar { display: none; }
@@ -135,4 +143,55 @@ body {
   transition: 0.3s var(--cubic-in);
   box-shadow: var(--shadow-3);
   z-index: 1;
+ }
+
+ .header.active {
+  height: 370px;
+  transition: 0.5s var(--cubic-out);
+ }
+
+ .header > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .logo { 
+  font-size: var(--fs-1);
+  font-weight: var(--fw-600);
+  color: var(--space-cadet);
+ }
+
+ .menu-toggle-btn .icon { font-size: 28px; }
+
+ .navbar { 
+  position: absolute;
+  top: 72px;
+  left: 0;
+  width: 100%;
+  background: var(--white);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s var(--cubic-out);
+ }
+
+ .header.active .navbar { 
+  opacity: 1;
+  visibility: visible;
+ }
+
+ .navbar-list {
+  padding-inline: 15px;
+  margin-bottom: 15px;
+ }
+
+ .navbar-link {
+  color: var(--onyx);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-500);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+  border-radius: var(--radius-6);
  }
