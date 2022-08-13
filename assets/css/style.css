@@ -123,13 +123,13 @@ body {
 
 .container { padding-inline: 15px; }
 
+.icon-box { font-variation-settings: 'wght' 300; }
 
+.icon-box .icon { font-size: 22px; }
 
 
 
 /*--------------------> HEADER <----------------*/
-
-.navbar { display: none; }
 
 .header { 
   background: var(--white);
@@ -195,3 +195,5 @@ body {
   padding: 10px;
   border-radius: var(--radius-6);
  }
+
+ .navbar-link:is(:hover, :focus) { background: var(--black_08); }
