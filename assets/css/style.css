@@ -125,7 +125,7 @@ body {
   border-radius: var(--radius-6);
  }
 
- .navbar-link:is(:hover, :focus) { background: var(--black_08); }
+ :is(.navbar-link, .notification, .header-profile):is(:hover, :focus) { background: var(--black_08); }
 
  .navbar-link.active { color: var(--blue-ryb); }
 
@@ -142,8 +142,6 @@ body {
   padding: 8px;
   border-radius: var(--radius-6);
  }
-
- .notification:is(:hover, :focus) { background: var(--black_08); }
 
  .header-profile { 
   display: flex;
@@ -172,4 +170,3 @@ body {
   font-weight: var(--fw-500);
 }
 
-.header-profile :is(:hover, :focus) { background: var(--black_08); }
