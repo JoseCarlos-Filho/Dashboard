@@ -128,3 +128,11 @@ body {
  .navbar-link:is(:hover, :focus) { background: var(--black_08); }
 
  .navbar-link.active { color: var(--blue-ryb); }
+
+ .user-action-list {
+  padding-inline: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+ }
