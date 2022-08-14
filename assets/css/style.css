@@ -136,3 +136,40 @@ body {
   align-items: center;
   flex-direction: row-reverse;
  }
+
+ .notification { 
+  color: var(--onyx);
+  padding: 8px;
+  border-radius: var(--radius-6);
+ }
+
+ .notification:is(:hover, :focus) { background: var(--black_08); }
+
+ .header-profile { 
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  padding-right: 15px;
+  border-radius: var(--radius-6);
+ }
+
+ .profile-avatar { 
+  overflow: hidden;
+  border-radius: var(--radius-6);
+ }
+
+ .header :is(.profile-title, .profile-subtitle) { font-size: var(--fs-9); }
+
+.header .profile-title {
+  color: var(--onyx);
+  margin-bottom: 2px;
+  font-weight: var(--fw-600);
+}
+
+.header .profile-subtitle {
+  color: var(--cool-gray);
+  font-weight: var(--fw-500);
+}
+
+.header-profile :is(:hover, :focus) { background: var(--black_08); }
