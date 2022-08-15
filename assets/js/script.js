@@ -10,4 +10,5 @@ const navToggleBtn = document.querySelector("[data-menu-toggle-btn]");
 
 navToggleBtn.addEventListener("click", () => {
     header.classList.toggle("active");
+    console.log(header.classList.toggle("active"));
 });
