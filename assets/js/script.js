@@ -7,6 +7,7 @@
 
 const header = document.querySelector("[data-header]");
 const navToggleBtn = document.querySelector("[data-menu-toggle-btn]");
+console.log(header);
 
 navToggleBtn.addEventListener("click", () => {
     header.classList.toggle("active");
