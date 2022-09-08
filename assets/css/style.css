@@ -70,7 +70,7 @@ body {
   background: hsl(0, 0%, 70%);
 }
 
-/*--------------------> ESTILOS REUSADO <----------------*/
+/* --------------------> ESTILOS REUSADO <---------------- */
 
 .container {
   padding-inline: 15px;
@@ -153,39 +153,45 @@ body {
   border-radius: var(--radius-6);
 }
 
-/* :is(.navbar-link, .notification, .header-profile):is(:hover, :focus) { background: var(--black_08); }
+:is(.navbar-link, .notification, .header-profile):is(:hover, :focus) {
+  background: var(--black_08);
+}
 
- .navbar-link.active { color: var(--blue-ryb); }
+.navbar-link.active {
+  color: var(--blue-ryb);
+}
 
- .user-action-list {
+.user-action-list {
   padding-inline: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row-reverse;
- }
+}
 
- .notification { 
+.notification {
   color: var(--onyx);
   padding: 8px;
   border-radius: var(--radius-6);
- }
+}
 
- .header-profile { 
+.header-profile {
   display: flex;
   align-items: center;
   gap: 10px;
   padding: 10px;
   padding-right: 15px;
   border-radius: var(--radius-6);
- }
+}
 
- .profile-avatar { 
+.profile-avatar {
   overflow: hidden;
   border-radius: var(--radius-6);
- }
+}
 
- .header :is(.profile-title, .profile-subtitle) { font-size: var(--fs-9); }
+.header :is(.profile-title, .profile-subtitle) {
+  font-size: var(--fs-9);
+}
 
 .header .profile-title {
   color: var(--onyx);
@@ -196,4 +202,4 @@ body {
 .header .profile-subtitle {
   color: var(--cool-gray);
   font-weight: var(--fw-500);
-} */
+}
