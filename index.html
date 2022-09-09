@@ -121,7 +121,59 @@
 
         <!-- Home da page -->
         <section class="home">
-          <div class="card profile-card"></div>
+          <div class="card profile-card">
+            <!-- Botão mais opções -->
+            <button
+              class="card-menu-btn icon-box"
+              aria-label="More"
+              data-menu-btn
+            >
+              <span class="material-symbols-rounded icon">more_horiz</span>
+            </button>
+
+            <!-- Menu de opções -->
+            <ul class="ctx-menu">
+              <li class="ctx-item">
+                <button class="ctx-menu-btn icon-box">
+                  <span class="material-symbols-rounded icon" aria-hidden="true"
+                    >edit</span
+                  >
+                  <span class="ctx-menu-text">Editar</span>
+                </button>
+              </li>
+
+              <li class="ctx-item">
+                <button class="ctx-menu-btn icon-box">
+                  <span class="material-symbols-rounded icon" aria-hidden="true"
+                    >cached</span
+                  >
+                  <span class="ctx-menu-text">Atualizar</span>
+                </button>
+              </li>
+
+              <li class="divider"></li>
+
+              <li class="ctx-item">
+                <button class="ctx-menu-btn icon-box">
+                  <span class="material-symbols-rounded icon" aria-hidden="true"
+                    >delete</span
+                  >
+                  <span class="ctx-menu-text">Desativar</span>
+                </button>
+              </li>
+            </ul>
+
+            <div class="profile-card-wrapper">
+              <figure class="card-avatar">
+                <img
+                  src="./assets/images/minhafoto.jpeg"
+                  alt="José Carlos R"
+                  width="48"
+                  height="48"
+                />
+              </figure>
+            </div>
+          </div>
         </section>
       </article>
     </main>
