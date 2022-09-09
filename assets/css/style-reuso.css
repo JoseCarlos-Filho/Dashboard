@@ -1,0 +1,55 @@
+@import "./variaveis.css";
+
+.container {
+  padding-inline: 15px;
+}
+
+.icon-box {
+  font-variation-settings: "wght" 300;
+}
+
+.icon-box .icon {
+  font-size: 22px;
+}
+
+.h2,
+.h3 {
+  color: var(--onyx-2);
+  font-weight: var(--fw-600);
+}
+
+.h2 {
+  font-size: var(--fs-3);
+}
+
+.card {
+  background: var(--white);
+  position: relative;
+  padding: 24px;
+  border-radius: var(--radius-6);
+  box-shadow: var(--shadow-2);
+}
+
+.card-menu-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: var(--cool-gray);
+  padding: 6px;
+  border-radius: var(--radius-6);
+}
+
+.card-menu-btn:is(:hover, :focus) {
+  background: var(--black_08);
+}
+
+.ctx-menu {
+  background: var(--white);
+  position: absolute;
+  top: 55px;
+  right: 16px;
+  width: 180px;
+  padding: 10px 5px;
+  box-shadow: var(--shadow-1);
+  border-radius: var(--radius-6);
+}

@@ -1,0 +1,27 @@
+@import "./variaveis.css";
+
+/* --------------------> ESTILOS REUSADO <---------------- */
+
+@import "./style-reuso.css";
+
+/*----------------- ESTILOS DA HOME -----------------------*/
+
+.article.container {
+  padding: 20px 14px;
+}
+
+.home {
+  display: grid;
+  gap: 25px;
+}
+
+.article-title {
+  margin-bottom: 10px;
+}
+
+.article-subtitle {
+  color: var(--davys-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-500);
+  margin-bottom: 25px;
+}

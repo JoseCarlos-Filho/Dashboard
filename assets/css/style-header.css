@@ -72,17 +72,7 @@ body {
 
 /* --------------------> ESTILOS REUSADO <---------------- */
 
-.container {
-  padding-inline: 15px;
-}
-
-.icon-box {
-  font-variation-settings: "wght" 300;
-}
-
-.icon-box .icon {
-  font-size: 22px;
-}
+@import "./style-reuso.css";
 
 /*--------------------> HEADER <----------------*/
 
