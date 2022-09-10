@@ -25,3 +25,57 @@
   font-weight: var(--fw-500);
   margin-bottom: 25px;
 }
+
+.profile-card-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.card-avatar {
+  overflow: hidden;
+  border-radius: var(--radius-6);
+}
+
+.card-title {
+  color: var(--onyx);
+  font-weight: var(--fw-600);
+  margin-bottom: 5px;
+}
+
+.card-subtitle {
+  color: var(--cool-gray);
+  font-size: var(--fs-7);
+}
+
+.contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+
+.contact-link {
+  color: var(--cool-gray);
+  font-size: var(--fs-7);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.progress-item:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.progress-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progress-title {
+  color: var(--onyx-2);
+  font-size: var(--fs-8);
+  font-weight: var(--fw-500);
+}

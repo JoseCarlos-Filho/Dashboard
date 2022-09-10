@@ -52,4 +52,42 @@
   padding: 10px 5px;
   box-shadow: var(--shadow-1);
   border-radius: var(--radius-6);
+  display: none;
+}
+
+.ctx-menu {
+  /* display: block; */
+}
+
+.ctx-menu-btn {
+  color: var(--color, var(--sonic-sliver));
+  font-size: --fs-6;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  gap: 8px;
+  padding: 5px 25px;
+  border-radius: --radius-6;
+}
+
+.ctx-menu-btn:is(:hover, :focus) {
+  color: var(--hover-color, var(--eerie-black));
+  background: var(--black_08);
+}
+
+.ctx-menu-btn.red {
+  --hover-color: var(--imperial-red);
+  --color: var(--imperial-red);
+}
+
+.divider {
+  height: 1px;
+  background: var(--bg, var(--black_08));
+  margin-block: var(--mb, 8px);
+}
+
+.card-divider {
+  --bg: var(--black_12);
+  --mb: 25px;
 }
