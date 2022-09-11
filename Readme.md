@@ -2,13 +2,13 @@
 
 ## Menu
 
-    - [Apresentação](#Apresentação)
-    - [Objetivo](#Objetivo)
-    - [Status](#Status)
-    - [Features](#Features)
-    - [Techs utilizadas](#Techs-utilizadas)
-    - [Como utilizar](#Como-utilizar)
-    - [Deploy](#Deploy)
+- [Apresentação](#Apresentação)
+- [Objetivo](#Objetivo)
+- [Status](#Status)
+- [Features](#Features)
+- [Techs utilizadas](#Techs-utilizadas)
+- [Como utilizar](#Como-utilizar)
+- [Deploy](#Deploy)
 
 ### Apresentação
 
@@ -24,17 +24,17 @@
 
 ### Features
 
-[] Mobile first
-[x] construir header da page
-[x] construir body da Page
-[x] construir CSS3 da Page
-[x] separar o CSS em arquivos de forma mais organizada
-[x] CSS Headers
-[x] CSS Body
-[x] lógica de ativação do menu em JavaScript
-[x] menu toggle. =
-[x] menu mais opções ---
-[] construir card do post
+() Mobile first
+(x) construir header da page
+(x) construir body da Page
+(x) construir CSS3 da Page
+(x) separar o CSS em arquivos de forma mais organizada
+(x) CSS Headers
+(x) CSS Body
+(x) lógica de ativação do menu em JavaScript
+(x) menu toggle. =
+(x) menu mais opções ---
+() construir card do post
 
 ### Techs utilizadas
 
