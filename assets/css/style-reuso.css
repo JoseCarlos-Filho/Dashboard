@@ -55,8 +55,8 @@
   display: none;
 }
 
-.ctx-menu {
-  /* display: block; */
+.ctx-menu.active {
+  display: block;
 }
 
 .ctx-menu-btn {
