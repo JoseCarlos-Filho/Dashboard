@@ -14,5 +14,4 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5433c841-e738-419e-912f-d93faeac3678/deploy-status)](https://app.netlify.com/sites/jose-carlos-rodrigues-dashboard/deploys)
 
-[![Desenvolvimento](https://img.shields.io/endpoint?url=https://img.shields.io/static/v1?label=Developer&message=DEV&color=lightgrey)]
-https://img.shields.io/static/v1?label=Developer&message=DEV&color=lightgrey
+<img src="https://img.shields.io/static/v1?label=Develpper&message=DEV&color=lightgrey">
