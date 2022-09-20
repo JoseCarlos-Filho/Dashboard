@@ -1,0 +1,28 @@
+@import "./variaveis.css";
+
+/* --------------------> ESTILOS REUSADO <---------------- */
+
+@import "./style-reuso.css";
+
+/* --------------------> ESTILOS CARD <---------------- */
+
+.home .card-wrapper {
+  display: grid;
+  gap: 25px;
+}
+
+.home .task-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.home .task-card .card-icon.green {
+  --background: var(--emerald_12);
+  --color: var(--emerald);
+}
+
+.home .task-card .card-icon.blue {
+  --background: var(--pacific-blue-12);
+  --color: var(--pacific-blue);
+}
