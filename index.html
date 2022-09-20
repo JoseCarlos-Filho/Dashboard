@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -123,6 +123,7 @@
 
         <!-- Home da page -->
         <section class="home">
+          <!-- Informações de perfil e opções do perfil -->
           <div class="card profile-card">
             <!-- Botão mais opções -->
             <button
@@ -235,7 +236,7 @@
               </li>
             </ul>
           </div>
-
+          <!-- Tarefas concluidas e em progresso -->
           <div class="card-wrapper">
             <div class="card task-card">
               <div class="card-icon icon-box green">
@@ -249,7 +250,7 @@
               </div>
             </div>
           </div>
-
+          <!-- Tarefas concluidas e em progresso -->
           <div class="card-wrapper">
             <div class="card task-card">
               <div class="card-icon icon-box blue">
@@ -264,6 +265,69 @@
                 <p class="card-text">Tarefas em progresso</p>
               </div>
             </div>
+          </div>
+
+          <div class="card revenue-card">
+            <button
+              class="card-menu-btn icon-box"
+              aria-label="More"
+              data-menu-btn
+            >
+              <span class="material-symbols-rounded icon">more_horiz</span>
+            </button>
+
+            <!-- Menu de opções -->
+            <ul class="ctx-menu">
+              <li class="ctx-item">
+                <button class="ctx-menu-btn icon-box">
+                  <span class="material-symbols-rounded icon" aria-hidden="true"
+                    >edit</span
+                  >
+                  <span class="ctx-menu-text">Editar</span>
+                </button>
+              </li>
+
+              <li class="ctx-item">
+                <button class="ctx-menu-btn icon-box">
+                  <span class="material-symbols-rounded icon" aria-hidden="true"
+                    >cached</span
+                  >
+                  <span class="ctx-menu-text">Atualizar</span>
+                </button>
+              </li>
+            </ul>
+
+            <p class="card-title">Receita</p>
+
+            <data class="card-price" value="2100">$2,100</data>
+
+            <p class="card-text">Ultima Semana</p>
+
+            <div class="divider card-divider"></div>
+
+            <ul class="revenue-list">
+              <li class="revenue-item icon-box">
+                <span class="material-symbols-rounded icon green"
+                  >trending_up</span
+                >
+                <div>
+                  <data class="revenue-item-data" value="15">15%</data>
+
+                  <p class="revenue-item-text">Prev Week</p>
+                </div>
+              </li>
+
+              <li class="revenue-item icon-box">
+                <span class="material-symbols-rounded icon green"
+                  >trending_down</span
+                >
+                <div>
+                  <data class="revenue-item-data" value="10">10%</data>
+
+                  <p class="revenue-item-text">Prev Month</p>
+                </div>
+              </li>
+            </ul>
           </div>
         </section>
       </article>
