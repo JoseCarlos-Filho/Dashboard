@@ -49,3 +49,16 @@
   color: var(--cool-gray);
   font-size: var(--fs-6);
 }
+
+/* --------------------> ESTILOS CARD RECEITAS<---------------- */
+
+.revenue-card .card-title {
+  margin-bottom: 15px;
+}
+
+.card-price {
+  color: var(--onyx);
+  font-size: var(--fs-2);
+  font-weight: var(--fw-600);
+  margin-bottom: 12px;
+}
