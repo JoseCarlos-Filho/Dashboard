@@ -135,3 +135,9 @@
   border: 1px solid var(--blue-ryb);
   transition: var(--transition);
 }
+
+.btn-primary:is(:hover, :focus) {
+  background: var(--blue-ryb);
+  color: var(--white);
+  box-shadow: 0 10px 10px -8px var(--blue-ryb);
+}

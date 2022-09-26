@@ -1,0 +1,25 @@
+@import "./variaveis.css";
+
+/* --------------------> ESTILOS REUSADO <---------------- */
+
+@import "./style-reuso.css";
+
+/* --------------------> ESTILOS PROJETOS <---------------- */
+
+.project-list {
+  display: grid;
+  gap: 25px;
+}
+
+.project-card .card-date {
+  color: var(--cool-gray);
+  font-size: var(--fs-9);
+  font-weight: var(--fw-500);
+  margin-bottom: 20px;
+}
+
+.project-card .card-title {
+  color: var(--onyx);
+  font-size: var(--fs-4);
+  margin-bottom: 8px;
+}
