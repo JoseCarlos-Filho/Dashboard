@@ -23,3 +23,16 @@
   font-size: var(--fs-4);
   margin-bottom: 8px;
 }
+
+.project-card .card-title > a {
+  color: inherit;
+  transition: var(--transition);
+}
+
+.project-card .card-title > a:is(:hover, :focus) {
+  color: var(--blue-ryb);
+}
+
+.project-card .card-badge {
+  margin-bottom: 20px;
+}
