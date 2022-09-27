@@ -36,3 +36,24 @@
 .project-card .card-badge {
   margin-bottom: 20px;
 }
+
+.project-card .card-text {
+  color: var(--cool-gray);
+  font-size: var(--fs-7);
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.project-card .card-progress-box {
+  margin-bottom: 15px;
+}
+
+.project-card .progress-title {
+  font-weight: var(--fw-600);
+}
+
+.project-card .progress-data {
+  color: var(--onyx);
+  font-size: var(--fs-9);
+  font-weight: var(--fw-600);
+}
