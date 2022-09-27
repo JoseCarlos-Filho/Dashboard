@@ -57,3 +57,13 @@
   font-size: var(--fs-9);
   font-weight: var(--fw-600);
 }
+
+.project-card .progress-bar {
+  margin-top: 10px;
+}
+
+.card-avatar-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
