@@ -68,8 +68,12 @@
   align-items: center;
 }
 
-.card-avatar-item {
+.card-avatar-item > a {
   border: 2px solid var(--white);
   border-radius: 50%;
   overflow: hidden;
+}
+
+.card-avatar-item:not(:first-child) {
+  margin-left: -15px;
 }
