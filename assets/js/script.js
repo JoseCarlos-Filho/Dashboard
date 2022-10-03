@@ -29,3 +29,7 @@ for (let i = 0; i < menuBtn.length; i++) {
  * Mostra o carregamento ativo com animação no botão Load More após ser clicado.
  */
 const loadMoreBtn = document.querySelector("[data-load-more]");
+
+loadMoreBtn.addEventListener("click", function () {
+  this.classList.toggle("active");
+});
