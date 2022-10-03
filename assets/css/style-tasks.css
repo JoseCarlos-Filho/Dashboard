@@ -53,3 +53,38 @@
   align-items: center;
   gap: 5px;
 }
+
+.tasks .btn-primary {
+  margin-block: 25px;
+  margin-inline: auto;
+}
+
+.tasks .btn-primary .spiner {
+  padding: 6px;
+
+  border: 2px solid var(--blue-ryb);
+  border-top-color: transparent;
+  border-radius: 50%;
+
+  animation: rotate 0.75s linear infinite;
+  display: none;
+}
+
+.tasks .btn-primary:is(:hover, :focus) .spiner {
+  border-color: var(--white);
+  border-top-color: transparent;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+.tasks .btn-primary.active .spiner {
+  display: block;
+}
