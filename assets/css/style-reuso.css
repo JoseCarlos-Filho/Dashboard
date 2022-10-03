@@ -166,3 +166,17 @@
   --bg: var(--pacific-blue_12);
   --color: var(--pacific-blue);
 }
+
+.card-badge.red {
+  --bg: var(--imperial-red_12);
+  --color: var(--imperial-red);
+}
+
+.card-badge.green {
+  --bg: var(--emerald_12);
+  --color: var(--emerald);
+}
+
+.card-badge.radius-pill {
+  border-radius: 50px;
+}

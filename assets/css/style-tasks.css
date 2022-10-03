@@ -29,3 +29,27 @@
 .tasks .card-input > input:checked {
   filter: dropdown(0 0 2px var(--blue-ryb));
 }
+
+.tasks .task-label {
+  color: var(--davys-gray);
+  font-size: var(--fs-9);
+  font-weight: var(--fw-600);
+  line-height: 1.5;
+}
+
+.tasks .card-meta-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+.tasks .meta-box {
+  color: var(--davys-gray);
+  font-size: var(--fs-9);
+  font-weight: var(--fw-600);
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
