@@ -1,0 +1,31 @@
+@import "./variaveis.css";
+
+/* --------------------> ESTILOS REUSADO <---------------- */
+
+@import "./style-reuso.css";
+
+/*----------------- ESTILOS DAS TAREFAS -----------------------*/
+
+.tasks-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.tasks .task-card {
+  display: grid;
+  gap: 15px;
+}
+
+.tasks .card-input {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.tasks .card-input > input {
+  margin-top: 2px;
+  accent-color: var(--blue-ryb);
+}
+
+.tasks .card-input > input:checked {
+  filter: dropdown(0 0 2px var(--blue-ryb));
+}
