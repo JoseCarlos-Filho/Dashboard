@@ -10,3 +10,35 @@
   background: var(--white);
   padding-block: 25px;
 }
+
+.footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.footer-link,
+.copyright {
+  color: var(--davys-gray);
+  font-size: var(--fs-6);
+  line-height: 1.7;
+}
+
+.footer-link,
+.copyright-link {
+  display: inline-block;
+  transition: var(--transition);
+}
+
+.footer-link:is(:hover, :focus) {
+  color: var(--blue-ryb);
+}
+
+.footer-item:not(:last-child)::after {
+  content: "-";
+  color: hsl(0, 0%, 80%);
+  font-weight: var(--fw-600);
+  margin-inline: 5px;
+}
