@@ -1,0 +1,12 @@
+@import "./variaveis.css";
+
+/* --------------------> ESTILOS REUSADO <---------------- */
+
+@import "./style-reuso.css";
+
+/*----------------- ESTILOS DAS FOOTER -----------------------*/
+
+.footer {
+  background: var(--white);
+  padding-block: 25px;
+}
