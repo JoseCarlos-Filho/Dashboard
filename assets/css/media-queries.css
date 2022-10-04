@@ -1,0 +1,48 @@
+@import "./variaveis.css";
+
+/* --------------------> ESTILOS REUSADO <---------------- */
+
+@import "./style-reuso.css";
+
+/*----------------- MEDIA QUERIES -----------------------*/
+
+/*
+* responsivo para largura da tela maior que 400px;
+*/
+
+@media (min-width: 400px) {
+  /* HOME */
+  .revenue-item:first-child {
+    margin-bottom: 0;
+  }
+
+  .revenue-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/*
+* responsivo para largura da tela maior que 570px;
+*/
+
+@media (min-width: 570px) {
+  /* ESTILO REUSADO */
+  .container {
+    max-width: 550px;
+    margin-inline: auto;
+  }
+
+  /* HEADER */
+  .navbar-list,
+  .user-action-lis {
+    padding-inline: 0;
+  }
+
+  /* HOME */
+  .card-price {
+    --fs-2: 1.625rem;
+  }
+
+  /* TASKS */
+}

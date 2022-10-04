@@ -32,7 +32,7 @@
   transition: var(--transition);
 }
 
-.footer-link:is(:hover, :focus) {
+:is(.footer-link, .copyright-link):is(:hover, :focus) {
   color: var(--blue-ryb);
 }
 
@@ -41,4 +41,8 @@
   color: hsl(0, 0%, 80%);
   font-weight: var(--fw-600);
   margin-inline: 5px;
+}
+
+.copyright-link {
+  color: inherit;
 }
