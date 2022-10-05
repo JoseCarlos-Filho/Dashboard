@@ -149,4 +149,29 @@
   .progress-list {
     align-items: flex-end;
   }
+
+  /* PROJETOS */
+
+  .project-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* TASKS - TAREFAS */
+
+  .tasks .tasks-card {
+    grid-template-columns: 1fr 0.5fr 0.5fr;
+    align-items: center;
+  }
+
+  /* FOOTER */
+
+  .footer-list {
+    margin-bottom: 0;
+  }
+
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
