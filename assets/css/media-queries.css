@@ -45,4 +45,34 @@
   }
 
   /* TASKS */
+
+  .tasks .card-meta-list {
+    justify-content: flex-end;
+  }
+}
+
+/*
+* responsivo para largura da tela maior que 570px;
+*/
+
+@media (min-width: 768px) {
+  /* ESTILOS REUSO */
+  .container {
+    max-width: 700px;
+  }
+
+  /* HOME */
+  .progress-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .progress-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .home .card-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
 }
