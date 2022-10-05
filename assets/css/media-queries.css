@@ -38,7 +38,7 @@
   /* HEADER */
 
   .navbar-list,
-  .user-action-lis {
+  .user-action-list {
     padding-inline: 0;
   }
 
@@ -173,5 +173,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+}
+
+/*
+* responsivo para largura da tela maior que 1200px;
+*/
+
+@media (min-width: 1200px) {
+  /* ESTILOS REUSO */
+
+  .container {
+    max-width: 1150px;
   }
 }
