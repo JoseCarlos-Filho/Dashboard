@@ -34,8 +34,9 @@ dentro das techs. saiba mais em: [O que aprendeu](#O-que-aprendeu)
 
 ### O que aprendeu
 
-    JavaScript:
-        - document.querySelector<font color=\"red\">("[data-header]")</font> : Tipos de seletores -> este tipo de seletor é denominado **seletor de correspondência exata**
+    ####JavaScript
+
+document.querySelector<font color=\"red\">("[data-header]")</font> : Tipos de seletores -> este tipo de seletor é denominado **seletor de correspondência exata**
 
 ### Status
 
