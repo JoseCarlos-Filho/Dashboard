@@ -37,8 +37,15 @@ dentro das techs. saiba mais em: [O que aprendeu](#O-que-aprendeu)
 
 #### JS
 
-- document.querySelector<span style="color:red">("[data-header]")</span> : Tipos de seletores -> este tipo de seletor é denominado **seletor de correspondência exata** sendo o valor de um atributo exato de qualque elemento HTML. Documentação de referência:
+- document.querySelector("[data-header]") : Tipos de seletores -> este tipo de seletor é denominado **seletor de correspondência exata** sendo o valor de um atributo exato de qualque elemento HTML. Documentação de referência:
   [Tipos de seletores](https://css-tricks.com/almanac/selectors/a/attribute/).
+
+- Element.nextElementSibling : propriedade somente leitura retorna o elemento imediatamente após o especificado na lista de filhos do pai ou nullse o elemento especificado for o último da lista.
+  Referência: [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/nextElementSibling)
+
+- Element.classList : é uma propriedade somente leitura que retorna uma coleção DOMTokenList (en-US) ativa dos atributos de classe do elemento. Referência: [MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/classList)
+
+- Element.classList.toggle() : método suporta adicionar e remover classes CSS, independentemente de existirem ou não em sua matriz com linhas de código mais curtas. Referência: [DigitalOcean](https://www.digitalocean.com/community/tutorials/js-classlist)
 
 ### Status
 
