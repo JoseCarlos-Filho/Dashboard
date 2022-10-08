@@ -1,6 +1,6 @@
 # Projeto Dashboard
 
-<img src="./assets/images/Dashboard-mobile.png">
+[Dashboard Mobile](/assets/images/Dashboard-mobile.png)
 
 ## Menu
 
@@ -25,7 +25,7 @@ dentro das techs. saiba mais em: [O que aprendeu](#O-que-aprendeu)
 
 ### Deploy
 
-- Progresso : <a href="https://jose-carlos-rodrigues-dashboard.netlify.app/" target="_blank">Dashboard José Carlos</a>
+- Link : <a href="https://jose-carlos-rodrigues-dashboard.netlify.app/" target="_blank">Dashboard José Carlos</a>
 
 ### Techs utilizadas
 
@@ -37,7 +37,8 @@ dentro das techs. saiba mais em: [O que aprendeu](#O-que-aprendeu)
 
 #### JS
 
-document.querySelector<font color="red">("[data-header]")</font> : Tipos de seletores -> este tipo de seletor é denominado **seletor de correspondência exata**
+- document.querySelector<span style="color:red">("[data-header]")</span> : Tipos de seletores -> este tipo de seletor é denominado **seletor de correspondência exata** sendo o valor de um atributo exato de qualque elemento HTML. Documentação de referência:
+  [Tipos de seletores](https://css-tricks.com/almanac/selectors/a/attribute/).
 
 ### Status
 
