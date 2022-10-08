@@ -11,6 +11,7 @@
     - [Deploy](#deploy)
     - [Techs utilizadas](#techs-utilizadas)
     - [O que aprendeu](#o-que-aprendeu)
+      - [JS](#js)
     - [Status](#status)
 
 ### Apresentação
@@ -34,9 +35,9 @@ dentro das techs. saiba mais em: [O que aprendeu](#O-que-aprendeu)
 
 ### O que aprendeu
 
-    ####JavaScript
+#### JS
 
-document.querySelector<font color=\"red\">("[data-header]")</font> : Tipos de seletores -> este tipo de seletor é denominado **seletor de correspondência exata**
+document.querySelector<font color="red">("[data-header]")</font> : Tipos de seletores -> este tipo de seletor é denominado **seletor de correspondência exata**
 
 ### Status
 
