@@ -38,8 +38,8 @@ dentro das techs. saiba mais em: [O que aprendeu](#O-que-aprendeu)
 
 #### JS
 
-- document.querySelector("[data-header]") : Tipos de seletores -> este tipo de seletor é denominado **seletor de correspondência exata** sendo o valor de um atributo exato de qualque elemento HTML. Documentação de referência:
-  [Tipos de seletores](https://css-tricks.com/almanac/selectors/a/attribute/).
+- document.querySelector("[data-header]") : Tipos de seletores -> este tipo de seletor é denominado **seletor de correspondência exata** sendo o valor de um atributo exato de qualque elemento HTML.
+  Referência: [CSS-Tricks](https://css-tricks.com/almanac/selectors/a/attribute/).
 
 - Element.nextElementSibling : propriedade somente leitura retorna o elemento imediatamente após o especificado na lista de filhos do pai ou nullse o elemento especificado for o último da lista.
   Referência: [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/nextElementSibling)
