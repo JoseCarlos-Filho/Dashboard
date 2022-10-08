@@ -186,4 +186,14 @@
   .container {
     max-width: 1150px;
   }
+
+  /* HEADER */
+  .navbar-list {
+    gap: 25px;
+  }
+
+  /* HOME */
+  .card-price {
+    --fs-2: 1.78rem;
+  }
 }
